@@ -33,10 +33,7 @@ const Staff = () => {
             
             <h4 className="text-xl font-semibold text-blue-600 mt-6 mb-2">Artistic Contributions</h4>
             <p>
-              Beyond his educational career, Mr. Giavaras is an accomplished lyricist whose songs have been performed by renowned Greek singers including Dimitris Mitropanos, Vicky Moschliou, Vasilis Lekkas, Fotini Darra, and others.
-            </p>
-            <p>
-              In 2022, he published a book with his lyrics under the title “Stis ohthes ton onion”
+              Beyond his educational career, Mr. Giavaras is an accomplished lyricist whose songs have been performed by renowned Greek singers including Dimitris Mitropanos, Vicky Moschliou, Vasilis Lekkas, Fotini Darra, and others.  In 2022, he published a book with his lyrics under the title “Stis Ohthes Ton Oniron.”
             </p>
           </div>
         </div>

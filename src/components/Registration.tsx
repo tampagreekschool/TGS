@@ -14,7 +14,7 @@ const Registration = () => {
               </div>
               <div>
                 <h4 className="text-xl font-semibold mb-2">Registration</h4>
-                <p className="text-lg">On-site after 12:00 PM on the first day</p>
+                <p className="text-lg">Register for the class in person at 12pm on the first Saturday of the course, as well as any other Saturday throughout the year.</p>
               </div>
             </div>
           </div>

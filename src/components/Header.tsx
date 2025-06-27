@@ -7,14 +7,6 @@ const Header = () => {
     <header className="bg-blue-800 text-white shadow-md">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
-          <div className="mr-4">
-            {/* Logo */}
-            <img 
-              src="/images/greek_school_logo_new.png" 
-              alt="School of Greek Language and Culture Logo" 
-              className="h-16 w-auto"
-            />
-          </div>
         </div>
 
         {/* Mobile menu button */}
