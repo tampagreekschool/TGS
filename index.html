@@ -51,5 +51,21 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Hidden form for Netlify form detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <select name="subject">
+        <option value="Registration Inquiry">Registration Inquiry</option>
+        <option value="Program Information">Program Information</option>
+        <option value="Schedule Question">Schedule Question</option>
+        <option value="General Question">General Question</option>
+        <option value="Other">Other</option>
+      </select>
+      <textarea name="message"></textarea>
+      <input type="submit" value="Send" />
+    </form>
   </body>
 </html>
