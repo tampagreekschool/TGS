@@ -9,11 +9,13 @@ import Registration from './components/Registration';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Testimonials from './components/Testimonials';
+import StructuredData from './components/StructuredData';
 import './App.css';
 
 function App() {
   return (
     <div className="font-sans">
+      <StructuredData />
       <Header />
       <main>
         <Hero />

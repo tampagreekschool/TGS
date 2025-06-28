@@ -35,51 +35,93 @@ const Contact = () => {
             
             <div>
               <h3 className="text-2xl font-bold text-blue-700 mb-4">Send a Message</h3>
-              <form className="space-y-4">
+              <form 
+                name="contact" 
+                method="POST" 
+                data-netlify="true" 
+                netlify-honeypot="bot-field"
+                className="space-y-4"
+              >
+                {/* Hidden field for Netlify Forms */}
+                <input type="hidden" name="form-name" value="contact" />
+                
+                {/* Honeypot field for spam protection */}
+                <div style={{ display: 'none' }}>
+                  <label>
+                    Don't fill this out if you're human: <input name="bot-field" />
+                  </label>
+                </div>
+                
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name *</label>
                   <input 
                     type="text" 
                     id="name" 
+                    name="name"
+                    required
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="Your Name"
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email *</label>
                   <input 
                     type="email" 
                     id="email" 
+                    name="email"
+                    required
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="Your Email"
                   />
                 </div>
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
                   <input 
-                    type="text" 
-                    id="subject" 
+                    type="tel" 
+                    id="phone" 
+                    name="phone"
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Subject"
+                    placeholder="Your Phone Number (Optional)"
                   />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Subject *</label>
+                  <select 
+                    id="subject" 
+                    name="subject"
+                    required
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option value="">Select a subject</option>
+                    <option value="Registration Inquiry">Registration Inquiry</option>
+                    <option value="Program Information">Program Information</option>
+                    <option value="Schedule Question">Schedule Question</option>
+                    <option value="General Question">General Question</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message *</label>
                   <textarea 
                     id="message" 
+                    name="message"
                     rows={4} 
+                    required
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Your Message"
+                    placeholder="Please tell us about your interest in our Greek language and culture programs..."
                   ></textarea>
                 </div>
                 <div>
                   <button 
                     type="submit" 
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                   >
                     Send Message
                   </button>
                 </div>
+                <p className="text-sm text-gray-600 text-center">
+                  * Required fields. We'll respond within 24 hours.
+                </p>
               </form>
             </div>
           </div>
