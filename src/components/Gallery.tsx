@@ -23,12 +23,12 @@ const Gallery = () => {
     { src: '/images/gallery/IMG_0982.jpeg', alt: 'Greek language learning' },
     { src: '/images/gallery/IMG_0952.jpeg', alt: 'School activities' },
     { src: '/images/gallery/IMG_8327(1).jpeg', alt: 'Students receiving certificates' }
-    { src: '/images/gallery/IMG_1317.JPEG', alt: 'Live greek Music Performance 1' }
-    { src: '/images/gallery/IMG_1338.JPEG', alt: 'Live greek Music Performance 2' }
-    { src: '/images/gallery/IMG_1352.JPEG', alt: 'Live greek Music Performance 3' }
-    { src: '/images/gallery/IMG_1355.JPEG', alt: 'Live greek Music Performance 4' }
+    { src: '/images/gallery/IMG_1317.JPEG', alt: 'Live Greek Music Performance 1' },
+    { src: '/images/gallery/IMG_1338.JPEG', alt: 'Live Greek Music Performance 2' },
+    { src: '/images/gallery/IMG_1352.JPEG', alt: 'Live Greek Music Performance 3' },
+    { src: '/images/gallery/IMG_1355.JPEG', alt: 'Live Greek Music Performance 4' },
     { src: '/images/gallery/IMG_6651.JPEG', alt: 'Student Picnic' }
-  ];
+];
 
   const openModal = (src: string) => {
     setSelectedImage(src);
