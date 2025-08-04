@@ -10,7 +10,7 @@ const Registration = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h4 className="text-xl font-semibold mb-2">Start Date</h4>
-                <p className="text-lg">Saturday, September 13th, 2025</p>
+                <p className="text-lg">Saturday, September 6th, 2025</p>
               </div>
               <div>
                 <h4 className="text-xl font-semibold mb-2">Registration</h4>
