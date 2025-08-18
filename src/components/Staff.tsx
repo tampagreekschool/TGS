@@ -4,6 +4,7 @@ const Staff = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-blue-800">Our Staff</h2>
         
+        {/* Yannis Giavaras */}
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-center mb-12">
           <div className="md:w-1/3">
             <img 
@@ -57,7 +58,7 @@ const Staff = () => {
         </div>
 
         {/* Chrisa Kapnogiannis */}
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-center">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-center mb-12">
           <div className="md:w-1/3">
             <img 
               src="/images/chrisa_kapnogiannis_photo.jpeg" 
@@ -80,11 +81,30 @@ const Staff = () => {
           </div>
         </div>
 
+        {/* Dr. Dimitra Keramisanou */}
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-center mb-12">
+          <div className="md:w-1/3">
+            <img 
+              src="/images/dimitra_keramisanou_photo.jpeg" 
+              alt="Dr. Dimitra Keramisanou Photo" 
+              className="rounded-lg shadow-md w-full h-auto object-cover"
+            />
+          </div>
+          
+          <div className="md:w-2/3">
+            <h3 className="text-2xl font-bold text-blue-700 mb-4">Dr. Dimitra Keramisanou</h3>
+            <p className="mb-4">
+              Dr. Dimitra Keramisanou is a Chemist by training that has been in the upper education for over 15 years. After receiving her Bachelor’s and Master’s degree in Greece at the University of Ioannina, she moved to the USA for her PhD studies at Rutgers University, New Jersey. She then joined the Chemistry Department at the University of South Florida in 2012, as a Research Associate, where she teaches Biochemistry and conducts research in the same field. Throughout these years she has been directly working with students in a classroom setting, gaining valuable teaching experience.
+            </p>
+            <p>
+              Her passion and love for Greek language and culture motivates her to join our team with the goal of transferring these values to young students. She is excited to guide and help children learn the Greek language and become familiar with Greek history and culture.
+            </p>
+          </div>
+        </div>
+
       </div>
     </section>
   );
 };
 
 export default Staff;
-
-
