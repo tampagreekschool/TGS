@@ -27,11 +27,11 @@ const galleryImages = [
   { src: '/images/gallery/IMG_1338.JPEG', alt: 'Live Greek Music Performance 2' },
   { src: '/images/gallery/IMG_1352.JPEG', alt: 'Live Greek Music Performance 3' },
   { src: '/images/gallery/IMG_1355.JPEG', alt: 'Live Greek Music Performance 4' },
-  { src: '/images/gallery/IMG_6651.JPEG', alt: 'Student Picnic' }
-  { src: '/images/gallery/IMG_1310.JPEG', alt: 'Christmas Party Dec 2025' }
-  { src: '/images/gallery/IMG_1311.JPEG', alt: 'Christmas Party Dec 2025' }
-  { src: '/images/gallery/IMG_1312.JPEG', alt: 'Christmas Party Dec 2025' }
-  { src: '/images/gallery/IMG_1313.JPEG', alt: 'Christmas Party Dec 2025' }
+  { src: '/images/gallery/IMG_6651.JPEG', alt: 'Student Picnic' },
+  { src: '/images/gallery/IMG_1310.JPEG', alt: 'Christmas Party Dec 2025' },
+  { src: '/images/gallery/IMG_1311.JPEG', alt: 'Christmas Party Dec 2025' },
+  { src: '/images/gallery/IMG_1312.JPEG', alt: 'Christmas Party Dec 2025' },
+  { src: '/images/gallery/IMG_1313.JPEG', alt: 'Christmas Party Dec 2025' },
 ];
 
   const openModal = (src: string) => {
