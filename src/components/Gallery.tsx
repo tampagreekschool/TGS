@@ -32,6 +32,14 @@ const galleryImages = [
   { src: '/images/gallery/IMG_1311.JPEG', alt: 'Christmas Party Dec 2025' },
   { src: '/images/gallery/IMG_1312.JPEG', alt: 'Christmas Party Dec 2025' },
   { src: '/images/gallery/IMG_1313.JPEG', alt: 'Christmas Party Dec 2025' },
+  { src: '/images/gallery/IMG_1972.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_1973.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_1975.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_1976.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_1977.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_1978.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_1979.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_1980.JPEG', alt: 'Pottery Feb 2026' },
 ];
 
   const openModal = (src: string) => {
