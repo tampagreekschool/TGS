@@ -40,6 +40,16 @@ const galleryImages = [
   { src: '/images/gallery/IMG_1978.JPEG', alt: 'Pottery Feb 2026' },
   { src: '/images/gallery/IMG_1979.JPEG', alt: 'Pottery Feb 2026' },
   { src: '/images/gallery/IMG_1980.JPEG', alt: 'Pottery Feb 2026' },
+  { src: '/images/gallery/IMG_03-38-3036_1.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_2.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_3.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_4.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_5.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_6.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_7.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_8.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_9.JPEG', alt: 'Greek Independence Day Parade' },
+  { src: '/images/gallery/IMG_03-38-3036_10.JPEG', alt: 'Greek Independence Day Parade' },
 ];
 
   const openModal = (src: string) => {
